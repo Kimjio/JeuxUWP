@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</Source>
+    <SmallTileSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</SmallTileSource>
+    <MediumTileSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</MediumTileSource>
+    <WideTileSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</WideTileSource>
+    <LargeTileSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</LargeTileSource>
+    <AppIconSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</AppIconSource>
+    <SplashScreenSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\JeuxUWP.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\kimji\Desktop\폴더\JeuxUWP\JeuxUWP\Jeux.ai</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

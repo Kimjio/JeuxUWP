@@ -1,0 +1,9 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/JeuxUWP/AppPackages/JeuxUWP_1.0.3.0_Test
+/JeuxUWP/BundleArtifacts
+/JeuxUWP/bin
+/JeuxUWP/obj
+/.vs/JeuxUWP/v15/Server/sqlite3
